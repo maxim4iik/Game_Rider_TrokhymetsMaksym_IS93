@@ -1,0 +1,248 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/maksymtrokhymets/Desktop/University/4 year/1 semester/Unity/Runner-main/Runner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52828
+Successfully changed project path to: /Users/maksymtrokhymets/Desktop/University/4 year/1 semester/Unity/Runner-main/Runner
+/Users/maksymtrokhymets/Desktop/University/4 year/1 semester/Unity/Runner-main/Runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 34.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/maksymtrokhymets/Desktop/University/4 year/1 semester/Unity/Runner-main/Runner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56279
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000682 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (383ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (260ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (62ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005461 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 30.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (8ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (41.1 KB). Loaded Objects now: 2935.
+Memory consumption went from 109.9 MB to 109.9 MB.
+Total: 2.472292 ms (FindLiveObjects: 0.098208 ms CreateObjectMapping: 0.032834 ms MarkObjects: 2.284791 ms  DeleteObjects: 0.055750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 349401.909786 seconds.
+  path: Assets/Prefabs/Dogs/Dog 2.prefab
+  artifactKey: Guid(86867d2e0a9934176ba203c26acc0766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dogs/Dog 2.prefab using Guid(86867d2e0a9934176ba203c26acc0766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c020a6349c9c3d6c6d9299eb2190b95') in 0.747409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.526487 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef
+  artifactKey: Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef using Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458dce39154d56260747e9ec46840c92') in 0.028549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.442948 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1002360e272cf591a214daa5cb5c75f8') in 0.766986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.088650 seconds.
+  path: Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef
+  artifactKey: Guid(d528c8c98d269ca44a06cd9624a03945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef using Guid(d528c8c98d269ca44a06cd9624a03945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f53e4b1e41ee2a233100344b30c9fb') in 0.001177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.834498 seconds.
+  path: Packages/com.unity.ide.rider/Rider/Editor/RiderStyles.cs
+  artifactKey: Guid(56f347f155204ffebacb6ed6f4a4e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/Rider/Editor/RiderStyles.cs using Guid(56f347f155204ffebacb6ed6f4a4e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcb6dd55228061b00e7683f6a41534a') in 0.178610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.424384 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5527babf88dcb6ff38db90a2359374') in 1.243764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.231727 seconds.
+  path: Assets/Prefabs/Cat.prefab
+  artifactKey: Guid(fca9081ff3ad74d0fb32ebdd121f953a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cat.prefab using Guid(fca9081ff3ad74d0fb32ebdd121f953a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c52a792e8ae2bece4e107adb24e791d') in 0.013696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.581508 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a6fe80ef80b39105b474244533a99c') in 0.001992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.807222 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration/AssemblyNameProvider.cs
+  artifactKey: Guid(1d93ffb668978f7488211a331977b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration/AssemblyNameProvider.cs using Guid(1d93ffb668978f7488211a331977b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1617c001df04e2a1caf7271570ae56a') in 0.003078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.612116 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration/ProjectGeneration.cs
+  artifactKey: Guid(97d6c87381e3e51488b49f5891490b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration/ProjectGeneration.cs using Guid(97d6c87381e3e51488b49f5891490b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8a8a4263d7eda8aea4f71b36d9b2bf') in 0.001285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.023416 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration/ProjectGenerationFlag.cs
+  artifactKey: Guid(f239f506223a98f4e9b5dd3a9f80edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration/ProjectGenerationFlag.cs using Guid(f239f506223a98f4e9b5dd3a9f80edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab45ebe6c352dd9f0ff4f52e7b9c701') in 0.001322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.408422 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration/StringUtils.cs
+  artifactKey: Guid(ee022071da7e4040bf2f949e15926ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration/StringUtils.cs using Guid(ee022071da7e4040bf2f949e15926ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cb22d5516d933b7f7bbc02567bc433') in 0.001164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.161151 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration/GUIDGenerator.cs
+  artifactKey: Guid(e58bd3cca6475e54b93632bb6837aeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration/GUIDGenerator.cs using Guid(e58bd3cca6475e54b93632bb6837aeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e306f0d40f87999cd05587c57bfc17e') in 0.001289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.779612 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration/FileIO.cs
+  artifactKey: Guid(eb221cf55b3544646b0c3b6bc790080f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration/FileIO.cs using Guid(eb221cf55b3544646b0c3b6bc790080f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed50125578b05244de06caddcc5398be') in 0.001311 seconds 
